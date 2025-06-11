@@ -1,7 +1,7 @@
 apiVersion: flink.apache.org/v1beta1
 kind: FlinkDeployment
 metadata:
-  name: basic-example-stateless-git
+  name: basic-example-argocd
 spec:
   image: flink:1.20-java17
   flinkVersion: v1_20
